@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{site.name}}</title>
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- CSS Files -->
+  <link href="{{site.github.url}}/assets/css/vender/bootstrap.min.css" rel="stylesheet">
+  <link href="{{site.github.url}}/assets/css/vender/bootstrap_docs.min.css" rel="stylesheet">
+  <link href="{{site.github.url}}/assets/css/soartex.github.io.css" rel="stylesheet">
+  <!-- Set the style load style for our header image -->
+  <style>
+    #content {
+      background:{{site.header.color1}};
+      background:linear-gradient(135deg, {{site.header.color1}}, {{site.header.color2}});
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <header class="navbar navbar-static-top bs-docs-nav" id="top">
+    <div class="container">
+      <div class="navbar-header" role="banner">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{site.github.url}}/">{{site.name}}</a>
+      </div>
+      <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav">
+        {% for p in site.pages %}
+          {% if p.is_home != true %}
+          <li {% if page.title == p.title %}class="active"{% endif %}>
+            <a href="{{site.github.url}}{{p.url}}">{{p.title}}</a>
+          </li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        {% for p in site.headerLinks %}
+          <li>
+            <a href="{{p.url}}">{{p.title}}</a>
+          </li>
+        {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  {{content}}
+  <!-- End of Main Content -->
+
+  <!-- Footer -->
+  <footer class="bs-docs-footer" role="contentinfo">
+    <div class="container">
+      <!-- Version, Links Github -->
+      <ul class="bs-docs-footer-links muted">
+        <li>v{{site.version}}</li>
+        <li>&middot;</li>
+        <li><a href="https://github.com/soartex/soartex.github.io">GitHub</a></li>
+        <li>&middot;</li>
+        <li><a href="https://github.com/soartex/soartex.github.io/issues?state=open">Issues</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Javascript Files -->
+  <script src="{{site.github.url}}/assets/js/vender/jquery.min.js"></script>
+  <script src="{{site.github.url}}/assets/js/vender/bootstrap.min.js"></script>
+  <script src="{{site.github.url}}/assets/js/vender/bootstrap_docs.min.js"></script>
+  <script src="{{site.github.url}}/assets/js/vender/d3.min.js"></script>
+  <script src="{{site.github.url}}/assets/js/vender/trianglify.min.js"></script>
+  <script src="{{site.github.url}}/assets/js/soartex.github.io.js"></script>
+  <!-- Render our header image -->
+  <script>trianglify('{{site.header.color1}}', '{{site.header.color2}}');</script>
+
+</body>
+</html>

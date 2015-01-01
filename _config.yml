@@ -1,0 +1,34 @@
+# Site Name
+name: Soartex Knowledge Base
+
+# Current Site Version
+version: 0.0.1
+
+# Header Image
+header:
+  color1: "#F0C27B"
+  color2: "#4B1248"
+  trianglify: true
+
+# Google analytics
+# TODO: implement this
+analytics:
+  account:
+  domain:
+
+# Set what urls should look like
+permalink: /:categories/:month-:day-:year/:title/
+
+# Enable markdown interpreter
+markdown: kramdown
+
+# Enable GFM
+kramdown:
+  input: GFM
+  use_coderay: true
+
+# Set what plugin to highlight code with
+highlighter: pygments
+
+# Exclude files we don't want to be public
+exclude: ['README.md', '.gitignore']

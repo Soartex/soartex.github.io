@@ -1,0 +1,18 @@
+---
+layout: content_small_header
+title: "Modded"
+title_sub: "Walkthrough on how to contribute to the modded system, and how it all works"
+permalink: modded/
+subject: ""
+---
+
+{% for page in site.categories['modded'] %}
+  <div class="grid-90 suffix-5 prefix-5 index-content">
+    <a href="{{ page.url }}">
+      <strong>{{ page.date | date: "%b %-d, %Y" }}</strong> 
+      &raquo; {{ page.title }}
+    </a>
+    <br/>
+    {{ page.subject }}
+  </div>
+{% endfor %}
