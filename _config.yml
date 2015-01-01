@@ -4,6 +4,9 @@ name: Soartex Knowledge Base
 # Current Site Version
 version: 0.0.1
 
+# Run in safe mode for github
+safe: true
+
 # Header Image
 header:
   color1: "#F0C27B"
