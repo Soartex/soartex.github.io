@@ -28,7 +28,7 @@ Our modpatcher system and server scripts uses `mod.json` files to get data and d
 }
 {% endhighlight %}
 
-{:#Example}
+{:#example}
 ### Example
 
 {% highlight json %}
