@@ -5,14 +5,19 @@ title_sub: "Walkthrough on how to contribute to the modded system, and how it al
 permalink: modded/
 subject: ""
 ---
-
-{% for page in site.categories['modded'] %}
-  <div class="grid-90 suffix-5 prefix-5 index-content">
-    <a href="{{ page.url }}">
-      <strong>{{ page.date | date: "%b %-d, %Y" }}</strong> 
-      &raquo; {{ page.title }}
-    </a>
-    <br/>
-    {{ page.subject }}
+<div class="row">
+  <div class="col-md-9">
+    {% for page in site.categories['modded'] %}
+      <div class="panel panel-default">
+        <div class="panel-body" style="padding-bottom:35px;">
+          <h3>
+            <a href="{{ page.url }}">{{ page.title }}</a>
+            <small>{{ page.date | date: "%B %-d, %Y" }}</small>
+          </h3>
+          <hr/>
+          {{ page.subject }}
+        </div>
+      </div>
+    {% endfor %}
   </div>
-{% endfor %}
+</div>
