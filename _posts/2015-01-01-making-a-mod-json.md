@@ -6,6 +6,8 @@ categories: modded
 subject: "In this article we explain what the mod.json file purpose is and how it ties into the modded system. We cover how to create such a file, and the guidelines to adding to the repo. A detailed parameter list is included."
 ---
 
+<section markdown="1" class="bs-docs-section">
+
 {:#overview .page-header}
 # Overview
 
@@ -60,3 +62,5 @@ The Json template above can be used for creating a file. While the `mod.json` ca
 | mod_authors | This is a Json array of each author that has created the mod. Please note the format is a json array, not a string. `["", "", "", ""]` |
 | url_website | This is the url to the forum thread or website the mod resides on. Try to link to the minecraft forum thread so we can provide liable urls to users. |
 | description | A small single sentence description that explains what the mod does. The idea is this allows people to link the name of the mod, with a mod that they have seen another person play. |
+
+</section>
