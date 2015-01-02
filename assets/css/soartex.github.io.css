@@ -13,6 +13,12 @@
   background: linear-gradient(135deg, transparent 50px, white 50px);
 }
 
+/* Markdown Image format */
+img {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 /* Bootstrap Doc Overwrites */
 .bs-docs-masthead {
