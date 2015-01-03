@@ -81,6 +81,36 @@ When adding textures to the modded folder simply copy *only* that mod specifc fi
 ### Commiting
 Once you have edited, added, or removed the textures for the mod, it is time to record the changes made. This is called "commiting". You create a record that records exactly what files where changed or removed. This is called a "commit". To create a commit head back to the Github client. In this client it should sync and show you that there are "Uncommited Changes". When this information is expanded your respected changed should be seen on the right panel.
 
+![Uncommitted Textures](/assets/img/contributing-to-the-modded-repos/commit-1.png)
 
+{:#publishing}
+### Publishing/Syncing
+Once the changes have been commited it is time to sync them with the repository on Github. To do this click the "publish" or "sync" button in the top right. In our case we have publish because we just created a new branch, so it is going to "publish" that branch by creating it on the Github site's repository. After the inital commit is created this button changes to "sync" as you are syncing your local commits with the ones on Github.
+
+![Commited Textures](/assets/img/contributing-to-the-modded-repos/commit-2.png)
+
+</section>
+<section markdown="1" class="bs-docs-section">
+
+{:#creating-a-pull-request .page-header}
+# Pull Requests
+A pull request is what allows for the textures on your repository to be brought back to the main Soartex repositories. To create a pull request head to your local copy of the repository on github.com. From there you can either click the pull request button next to the branch selection dropdown, or github usally has a convenient popup. At the next menu you can select what branch you want to submit as a pull request to the main repo. In this example below I needed to change it with the *edit* button from my `goldbattle:master` branch to the one I created `goldbattle:mod-ic2-additions`. I can now fill in some information about what mod I tested it agaist and details that might be helpfull.
+
+![Pull Request Welcome](/assets/img/contributing-to-the-modded-repos/pull-request-1.png)
+![Pull Request Branch Select](/assets/img/contributing-to-the-modded-repos/pull-request-2.png)
+
+{:.alert .alert-info}
+**Information:** It is important that the correct branch is selected. As seen in the below picture, I am submiting my edited textures for Industrialcraft 2. I can see the commits that I added below, and I am on the correct branch `goldbattle:mod-ic2-additions`.
+
+![Pull Request Ready To Submit](/assets/img/contributing-to-the-modded-repos/pull-request-3.png)
+
+</section>
+<section markdown="1" class="bs-docs-section">
+
+{:#finishing-up .page-header}
+# Finishing Up
+Once you have submited your commits, it is time to wait to get them reviewed. Contributers to the repository will test your textures and make sure they are good to be pulled to the repo. Once they have been reviewed they will get added to the repo. This is called "merging". If changes or improvments are requested then, simple commit those edits to the same branch. They will automaticly show up on the pull request. Once it is merged the issue is will be closed. If you wish you can delete your branch.
+
+![Finished](/assets/img/contributing-to-the-modded-repos/pull-request-4.png)
 
 </section>
