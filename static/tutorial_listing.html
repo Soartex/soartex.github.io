@@ -12,7 +12,7 @@ subject: ""
         <div class="panel-body" style="padding-bottom:35px;">
           <h3>
             <a href="{{ page.url }}">{{ page.title }}</a>
-            <small>{{ page.date | date: "%B %-d, %Y" }}</small>
+            <small>{{ page.date | date: "%B %-d, %Y" }} by {{ page.author }}</small>
           </h3>
           <hr/>
           {{ page.subject }}

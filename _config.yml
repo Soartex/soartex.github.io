@@ -2,7 +2,7 @@
 name: Soartex Knowledge Base
 
 # Current Site Version
-version: 0.0.4
+version: 0.0.5
 
 # Run in safe mode for github
 safe: true

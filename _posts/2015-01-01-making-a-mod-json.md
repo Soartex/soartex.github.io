@@ -2,6 +2,7 @@
 layout: content_small_header
 title: "Making Mod.json Files"
 title_sub: "How to create a mod.json and what is it used for"
+author: "Soartex Team"
 categories: modded
 subject: "In this article we explain what the mod.json file purpose is and how it ties into the modded system. We cover how to create such a file, and the guidelines to adding to the repo. A detailed parameter list is included."
 ---

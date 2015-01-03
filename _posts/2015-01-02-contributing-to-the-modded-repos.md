@@ -2,6 +2,7 @@
 layout: content_small_header
 title: "Contributing to Modded"
 title_sub: "Part 1: A simple introduction to getting off the ground"
+author: "GoldBattle"
 categories: modded
 subject: "In this article we explain how to submit textures to the modded repo, and how the system works. We walk through the process of how to use a simple git client and how to add/commit textures. From there we will walk through the process of creating a pull request so your additions can be commented on and added to the modded downloads. This introduction guide will get you contributing to our modded repositories."
 ---
