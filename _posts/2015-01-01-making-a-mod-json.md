@@ -12,7 +12,7 @@ subject: "In this article we explain what the mod.json file purpose is and how i
 {:#overview .page-header}
 # Overview
 
-Our modpatcher system and server scripts uses `mod.json` files to get data and directory information each mod. Each mod has a respective `mod.json` in the repository that represents each mod. Each json holds information that the future patcher will harness to provide a rich experience for the user. When creating or updating a mod we ask that you please create/update the `mod.json` file for the mod. This both allows us to track the the textures' mod version dependency and other details.
+Our modpatcher system and server scripts uses `mod.json` files to get data and directory information each mod. Each mod has a respective `mod.json` in the repository that represents each mod. Each json holds information that the future patcher will harness to provide a rich experience for the user. When creating or updating a mod we ask that you please create/update the `mod.json` file for the mod. This both allows us to track the textures' mod version dependency and other details.
 
 
 {:#template}
