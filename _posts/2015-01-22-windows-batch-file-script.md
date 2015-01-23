@@ -24,7 +24,7 @@ To use this script there is a single dependency needed. To do our overlaying and
 * ImageMagick Program - [[Download](http://www.imagemagick.org/script/binary-releases.php#windows)]
 
 {:#dependency}
-### Dependency Installation
+## Dependency Installation
 When installing the program it is **important** that the option to "Add application directory to your system path" is checked. This will allow the script to run commands that can edit our image files. After install it is easy to check if the program has installed successfully. To check we need to run a command in our command line. Open the windows start menu and in the search box, search for `cmd`, and press enter. From here type in the command `identify -version`, this will check for an installed version of imagemagick. Below is the first line that is returned showing that we have successfully installed our dependency
 
 ```console
