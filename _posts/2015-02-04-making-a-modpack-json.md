@@ -110,7 +110,7 @@ If you are submitting a `modpack.json` please help us to maintain it from updati
 
 Once you have created your `modpack.json` clone our repository, then add the file to the `/packs/` folder. It is essential that the file is in that folder otherwise the server scripts will not detect the file to compile the modpack download. Lastly push your changes and then submit a pull-request back to our repository to get the file added. Once a member of staff has checked the file they will acppet the request and the file will be added to our repository. Repeat this process when you want to add a new mod to the file or to bump the version.
 
-If however you wish for assistance with submitting the file you can email us for [support](mailto:support&#64;soartex.net?Subject=Soartex%20Wiki%20Contact%20|%20Modpack%20JSON)
+If however you wish for assistance with submitting the file you can email us for [support](mailto:support&#64;soartex.net?Subject=Soartex%20Wiki%20Contact%20Modpack%20JSON)
 
 </section>
 <section markdown="1" class="bs-docs-section">
