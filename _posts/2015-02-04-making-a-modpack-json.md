@@ -110,7 +110,7 @@ If you are submitting a `modpack.json` please help us to maintain it from updati
 
 Once you have created your `modpack.json` clone our repository, then add the file to the `/packs/` folder. It is essential that the file is in that folder otherwise the server scripts will not detect the file to compile the modpack download. Lastly push your changes and then submit a pull-request back to our repository to get the file added. Once a member of staff has checked the file they will acppet the request and the file will be added to our repository. Repeat this process when you want to add a new mod to the file or to bump the version.
 
-If however you wish for assistance with submitting the file you can email us for [support](mailto:support@soartex.net?Subject=Soartex%20Wiki%20Contact%20|%20Modpack%20JSON).
+If however you wish for assistance with submitting the file you can email us for [support](mailto:support@soartex.net?Subject=Soartex%20Wiki%20Contact%20|%20Modpack%20JSON)
 
 </section>
 <section markdown="1" class="bs-docs-section">
@@ -118,12 +118,12 @@ If however you wish for assistance with submitting the file you can email us for
 {:#help .page-header}
 # Help
 
-Below is some helpful information on what some of the vairables mean and what values are valid to use when creating a `modpack.json` file.
+Below is some helpful information on what some of the variables mean and what values are valid to use when creating a `modpack.json` file.
 
 {:#modpack-type}
 ### Modpack Type
 
-Our server script supports 2 modpack types currently but the one you would use for creating support for a modpack would be `modded_standard`. Modded standard tells the script that you are wanting to create a download with certain patches which is defined in the "mods" array. The other type is `modded_universal` which will more than offen be used by staff members to create "Universal" downloads, these are basically downloads which contain all the modpack patches we offer on our [modded repositories](https://github.com/Soartex-Modded/).
+Our server script supports 2 modpack types currently but the one you would use for creating support for a modpack would be `modded_standard`. Modded standard tells the script that you are wanting to create a download with certain patches which is defined in the "mods" array. The other type is `modded_universal` which will more than often be used by staff members to create "Universal" downloads, these are basically downloads which contain all the modpack patches we offer on our [modded repositories](https://github.com/Soartex-Modded/).
 
 {:#modpack-provider}
 ### Modpack Provider
