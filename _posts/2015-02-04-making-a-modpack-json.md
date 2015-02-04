@@ -203,14 +203,14 @@ This is a pre-defined listing of mods that you can use to add to your `modpack.j
 | Falling Meteors | meteors |
 | Flaxbeards SteamCraft | Steamcraft |
 | Forbidden Magic | ForbiddenMagic |
-| Forestry | Forestry | fossil |
+| Forestry | Forestry |
 | Forge Multipart | ForgeMultipart |
 | Galacticraft 3 | Galacticraft |
 | Ganys Mods | Ganys_Mods |
 | Geostrata | geostrata |
 | GraveStone | gravestone |
 | GregTech Addon | gregtech_addon |
-| Fossils Archaeology Revival |
+| Fossils Archaeology Revival | fossil |
 | Hardcore Ender Expansion | HardcoreEnderExpansion |
 | Hardcore Questing | HardcoreQuesting |
 | IguanaTweaks Tinkers Construct | IguanaTweaksTConstruct |
