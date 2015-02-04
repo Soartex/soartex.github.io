@@ -12,15 +12,20 @@ subject: "In this article we explain what the modpack.json files purpose is and 
 {:#overview .page-header}
 # Overview
 
-Our server scripts use `modpack.json` files to compile downloads for a modpack. Each modpack has a respective `modpack.json` in the repository that represents each modpack. Each json holds information which the server scripts need to build a download for the pack, in the future we plan on making it easier to create these files by creating a mod for modpack creators to use and generate the files to submit to the repository. This then enables us to offer broader support in terms of downloads, to save the user from downloading our _Universal Downloads_ which contains all the mod patches we offer but this is at a cost of the large file size.
+Our server scripts use `modpack.json` files to compile downloads for a modpack. Each modpack has a respective `modpack.json` in the repository that represents it. Each json holds information which the server scripts need to build a download for the pack, in the future we plan on making it easier to create these files. This system enables us to offer broader support of downloads, to save the user from downloading our large _Universal Downloads_, which contains all the mod patches we offer.
+
+</section>
+<section markdown="1" class="bs-docs-section">
 
 {:#about}
-### About
-The `modpack.json` system allows us to have the system 99% automated from updating the downloads and distributing the download as the server scripts manage this for us. We will be accepting any type of modpack to be added but the json file submitted must be correct and accurate to the latest build of the modpack. Failing to do so will result in the pull request being closed and for you to re-create/fix the problems stated by one of our staff members.
+# About
+The `modpack.json` system allows us to have the system 99% automated. From this simple file the downloads are updated and distributing. We will be accepting any type of modpack to be added but the json file submitted must be correct and accurate to the latest build of the modpack. Failing to do so will result in the pull request being closed and for you to re-create/fix the problems stated by one of our staff members.
 
+</section>
+<section markdown="1" class="bs-docs-section">
 
 {:#template}
-### Template
+# Template
 
 {% highlight json %}
 {
@@ -44,7 +49,7 @@ The json template above can be used for creating a file. Where the `modpack.json
 If you are submitting a `modpack.json` please help us to maintain it from updating the mod listing and the version support. This way we can ensure that the download supports the latest version of the modpack and that the staff can concentrate on creating more texture support and applications for Soartex.
 
 {:#example}
-### Example
+## Example
 
 {% highlight json %}
 {
@@ -82,7 +87,7 @@ If you are submitting a `modpack.json` please help us to maintain it from updati
 {% endhighlight %}
 
 {:#parameter-breakdown}
-### Parameter Breakdown
+## Parameter Breakdown
 
 {:.table .table-bordered}
 | Parameter | Type | Explanation |
@@ -97,8 +102,11 @@ If you are submitting a `modpack.json` please help us to maintain it from updati
 | resourcepacks | array | This is an array of the resourcepacks for the modpack to be compiled against. You can find the support resourcepacks [here](#resourcepacks) |
 | mods | array | This is an array of the mods to be included into the modpack compile, this uses the modid from the mod to be added. You can find a list of pre-defined mods [here](#mods-listing) |
 
+</section>
+<section markdown="1" class="bs-docs-section">
+
 {:#submitting-your-file}
-### Submitting Your File
+# Submitting Your File
 
 Once you have created your `modpack.json` clone our repository, then add the file to the `/packs/` folder. It is essential that the file is in that folder otherwise the server scripts will not detect the file to compile the modpack download. Lastly push your changes and then submit a pull-request back to our repository to get the file added. Once a member of staff has checked the file they will acppet the request and the file will be added to our repository. Repeat this process when you want to add a new mod to the file or to bump the version.
 
