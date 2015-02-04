@@ -17,14 +17,14 @@ Our server scripts use `modpack.json` files to compile downloads for a modpack. 
 </section>
 <section markdown="1" class="bs-docs-section">
 
-{:#about}
+{:#about .page-header}
 # About
 The `modpack.json` system allows us to have the system 99% automated. From this simple file the downloads are updated and distributing. We will be accepting any type of modpack to be added but the json file submitted must be correct and accurate to the latest build of the modpack. Failing to do so will result in the pull request being closed and for you to re-create/fix the problems stated by one of our staff members.
 
 </section>
 <section markdown="1" class="bs-docs-section">
 
-{:#template}
+{:#template .page-header}
 # Template
 
 {% highlight json %}
@@ -105,7 +105,7 @@ If you are submitting a `modpack.json` please help us to maintain it from updati
 </section>
 <section markdown="1" class="bs-docs-section">
 
-{:#submitting-your-file}
+{:#submitting-your-file .page-header}
 # Submitting Your File
 
 Once you have created your `modpack.json` clone our repository, then add the file to the `/packs/` folder. It is essential that the file is in that folder otherwise the server scripts will not detect the file to compile the modpack download. Lastly push your changes and then submit a pull-request back to our repository to get the file added. Once a member of staff has checked the file they will acppet the request and the file will be added to our repository. Repeat this process when you want to add a new mod to the file or to bump the version.
