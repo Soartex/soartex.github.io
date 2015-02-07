@@ -7,10 +7,25 @@ subject: ""
 is_home: true
 ---
 
-<h4>
-  This site is currently a work in progress.
-  <br/>
-  Please give us time to fill things out.
-  <br/>
-  If you are interested in contributing guide and information head over to our github and open an issue or pull request.
-</h4>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam risus elit, venenatis ac convallis eu, tincidunt vitae ligula. Nullam viverra justo sollicitudin ipsum molestie bibendum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam tortor ligula, bibendum eget mauris at, finibus rutrum augue. Integer venenatis dictum fringilla. Pellentesque consequat porttitor leo eget mattis. Donec et leo arcu. Vivamus dapibus orci at iaculis lobortis. In porttitor faucibus tristique. Sed congue, justo vel aliquam tincidunt, massa sem hendrerit lectus, eu molestie augue dui nec velit. Phasellus turpis nunc, gravida ac arcu in, varius vestibulum purus. Praesent in consectetur justo. Mauris iaculis dignissim dapibus. Donec sed nunc nisl.
+</p>
+
+<hr/>
+
+<div class="row">
+  <div class="col-md-9">
+    {% for page in site.posts limit:3 %}
+      <div class="panel panel-default">
+        <div class="panel-body" style="padding-bottom:35px;">
+          <h3>
+            <a href="{{ page.url }}">{{ page.title }}</a>
+            <small>{{ page.date | date: "%B %-d, %Y" }} by {{ page.author }}</small>
+          </h3>
+          <hr/>
+          {{ page.subject }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
