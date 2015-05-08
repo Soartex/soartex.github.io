@@ -136,6 +136,7 @@ The server script will support an array of launchers to host downloads for but w
 | ATLauncher | atlauncher |
 | Feed The Beast | ftb |
 | Technic Launcher | technic |
+| Curse Client | curse |
 
 {:#minecraft-versions}
 ### Minecraft Versions
